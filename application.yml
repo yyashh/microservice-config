@@ -3,7 +3,6 @@ spring:
     name: config-server
 eureka:
   instance:
-    appname: config-server
     prefer-ip-address: true
   client:
     fetch-registry: true
